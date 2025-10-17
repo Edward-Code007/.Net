@@ -1,0 +1,176 @@
+2025-10-16 13:17:54.766 -04:00 [INF] Servidor Iniciado Con Exito
+2025-10-16 20:03:10.467 -04:00 [INF] Servidor Iniciado Con Exito
+2025-10-16 20:07:55.971 -04:00 [INF] Servidor Iniciado Con Exito
+2025-10-16 20:07:56.069 -04:00 [INF] Now listening on: http://localhost:5140
+2025-10-16 20:07:56.166 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-16 20:07:56.170 -04:00 [INF] Hosting environment: Development
+2025-10-16 20:07:56.175 -04:00 [INF] Content root path: C:\Users\eduar\source\repos\tests\tests
+2025-10-16 20:08:33.058 -04:00 [INF] Application is shutting down...
+2025-10-16 20:08:37.619 -04:00 [INF] Servidor Iniciado Con Exito
+2025-10-16 20:08:37.801 -04:00 [INF] Now listening on: http://localhost:5140
+2025-10-16 20:08:37.854 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-16 20:08:37.857 -04:00 [INF] Hosting environment: Development
+2025-10-16 20:08:37.862 -04:00 [INF] Content root path: C:\Users\eduar\source\repos\tests\tests
+2025-10-16 20:09:40.991 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - null null
+2025-10-16 20:09:41.059 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at tests.Program.<>c__DisplayClass0_0.<Main>b__2(JwtBearerOptions jwtOpt) in C:\Users\eduar\source\repos\tests\tests\Program.cs:line 44
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-10-16 20:09:41.135 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - 500 null text/plain; charset=utf-8 146.5067ms
+2025-10-16 20:11:08.262 -04:00 [INF] Application is shutting down...
+2025-10-16 20:11:14.227 -04:00 [INF] Servidor Iniciado Con Exito
+2025-10-16 20:11:14.335 -04:00 [INF] Now listening on: http://localhost:5140
+2025-10-16 20:11:14.390 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-16 20:11:14.392 -04:00 [INF] Hosting environment: Development
+2025-10-16 20:11:14.396 -04:00 [INF] Content root path: C:\Users\eduar\source\repos\tests\tests
+2025-10-16 20:11:19.943 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - null null
+2025-10-16 20:11:19.987 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at tests.Program.<>c__DisplayClass0_0.<Main>b__2(JwtBearerOptions jwtOpt) in C:\Users\eduar\source\repos\tests\tests\Program.cs:line 44
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-10-16 20:11:20.021 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - 500 null text/plain; charset=utf-8 79.3586ms
+2025-10-16 20:11:22.853 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - null null
+2025-10-16 20:11:22.861 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at tests.Program.<>c__DisplayClass0_0.<Main>b__2(JwtBearerOptions jwtOpt) in C:\Users\eduar\source\repos\tests\tests\Program.cs:line 44
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-10-16 20:11:22.869 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - 500 null text/plain; charset=utf-8 16.3972ms
+2025-10-16 20:15:31.608 -04:00 [INF] Servidor Iniciado Con Exito
+2025-10-16 20:15:31.713 -04:00 [INF] Now listening on: http://localhost:5140
+2025-10-16 20:15:31.763 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-16 20:15:31.765 -04:00 [INF] Hosting environment: Development
+2025-10-16 20:15:31.766 -04:00 [INF] Content root path: C:\Users\eduar\source\repos\tests\tests
+2025-10-16 20:15:39.016 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - null null
+2025-10-16 20:15:39.075 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at tests.Program.<>c__DisplayClass0_0.<Main>b__2(JwtBearerOptions jwtOpt) in C:\Users\eduar\source\repos\tests\tests\Program.cs:line 44
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-10-16 20:15:39.125 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - 500 null text/plain; charset=utf-8 110.1596ms
+2025-10-16 20:22:21.074 -04:00 [INF] Servidor Iniciado Con Exito
+2025-10-16 20:22:21.190 -04:00 [INF] Now listening on: http://localhost:5140
+2025-10-16 20:22:21.238 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-16 20:22:21.239 -04:00 [INF] Hosting environment: Development
+2025-10-16 20:22:21.240 -04:00 [INF] Content root path: C:\Users\eduar\source\repos\tests\tests
+2025-10-16 20:22:25.610 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - null null
+2025-10-16 20:22:25.712 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-10-16 20:22:25.721 -04:00 [INF] Executing endpoint 'tests.Controllers.AuthController.Login (tests)'
+2025-10-16 20:22:25.754 -04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[tests.DTOs.ResponseDTO`1[tests.DTOs.TokenResponseDto]]] Login(tests.DTOs.LoginDto) on controller tests.Controllers.AuthController (tests).
+2025-10-16 20:22:28.331 -04:00 [INF] Executed DbCommand (58ms) [Parameters=[@__login_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[ExpireTimeToken], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Salt], [u].[isActive]
+FROM [User] AS [u]
+WHERE [u].[Email] = @__login_Email_0
+2025-10-16 20:22:28.619 -04:00 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [u].[Id], [s].[RoleId], [s].[UserId], [s0].[RoleId], [s0].[UserId], [s0].[Id], [s0].[Email], [s0].[ExpireTimeToken], [s0].[Name], [s0].[Password], [s0].[RefreshToken], [s0].[Salt], [s0].[isActive]
+FROM [User] AS [u]
+INNER JOIN (
+    SELECT [r0].[Id], [r0].[Name], [r].[RoleId], [r].[UserId]
+    FROM [RoleModelUserModel] AS [r]
+    INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[Id]
+) AS [s] ON [u].[Id] = [s].[UserId]
+LEFT JOIN (
+    SELECT [r1].[RoleId], [r1].[UserId], [u0].[Id], [u0].[Email], [u0].[ExpireTimeToken], [u0].[Name], [u0].[Password], [u0].[RefreshToken], [u0].[Salt], [u0].[isActive]
+    FROM [RoleModelUserModel] AS [r1]
+    INNER JOIN [User] AS [u0] ON [r1].[UserId] = [u0].[Id]
+    WHERE [u0].[Id] = @__p_0
+) AS [s0] ON [s].[Id] = [s0].[RoleId]
+WHERE [u].[Id] = @__p_0
+ORDER BY [u].[Id], [s].[RoleId], [s].[UserId], [s].[Id], [s0].[RoleId], [s0].[UserId]
+2025-10-16 20:22:28.787 -04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [User] SET [ExpireTimeToken] = @p0, [RefreshToken] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2025-10-16 20:22:28.805 -04:00 [FTL] Usuario Autenticado 2004
+2025-10-16 20:22:28.817 -04:00 [INF] Executing OkObjectResult, writing value of type 'tests.DTOs.ResponseDTO`1[[tests.DTOs.TokenResponseDto, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-16 20:22:28.890 -04:00 [INF] Executed action tests.Controllers.AuthController.Login (tests) in 3127.6723ms
+2025-10-16 20:22:28.900 -04:00 [INF] Executed endpoint 'tests.Controllers.AuthController.Login (tests)'
+2025-10-16 20:22:28.913 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - 200 563 application/json; charset=utf-8 3304.3571ms
+2025-10-16 20:26:55.941 -04:00 [INF] Servidor Iniciado Con Exito
+2025-10-16 20:26:56.053 -04:00 [INF] Now listening on: http://localhost:5140
+2025-10-16 20:26:56.104 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-16 20:26:56.106 -04:00 [INF] Hosting environment: Development
+2025-10-16 20:26:56.108 -04:00 [INF] Content root path: C:\Users\eduar\source\repos\tests\tests
+2025-10-16 20:26:59.832 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - null null
+2025-10-16 20:26:59.877 -04:00 [WRN] Failed to determine the https port for redirect.
+2025-10-16 20:26:59.883 -04:00 [INF] Executing endpoint 'tests.Controllers.AuthController.Login (tests)'
+2025-10-16 20:26:59.911 -04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[tests.DTOs.ResponseDTO`1[tests.DTOs.TokenResponseDto]]] Login(tests.DTOs.LoginDto) on controller tests.Controllers.AuthController (tests).
+2025-10-16 20:27:00.967 -04:00 [INF] Executed DbCommand (35ms) [Parameters=[@__login_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[ExpireTimeToken], [u].[Name], [u].[Password], [u].[RefreshToken], [u].[Salt], [u].[isActive]
+FROM [User] AS [u]
+WHERE [u].[Email] = @__login_Email_0
+2025-10-16 20:27:01.203 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Name], [u].[Id], [s].[RoleId], [s].[UserId], [s0].[RoleId], [s0].[UserId], [s0].[Id], [s0].[Email], [s0].[ExpireTimeToken], [s0].[Name], [s0].[Password], [s0].[RefreshToken], [s0].[Salt], [s0].[isActive]
+FROM [User] AS [u]
+INNER JOIN (
+    SELECT [r0].[Id], [r0].[Name], [r].[RoleId], [r].[UserId]
+    FROM [RoleModelUserModel] AS [r]
+    INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[Id]
+) AS [s] ON [u].[Id] = [s].[UserId]
+LEFT JOIN (
+    SELECT [r1].[RoleId], [r1].[UserId], [u0].[Id], [u0].[Email], [u0].[ExpireTimeToken], [u0].[Name], [u0].[Password], [u0].[RefreshToken], [u0].[Salt], [u0].[isActive]
+    FROM [RoleModelUserModel] AS [r1]
+    INNER JOIN [User] AS [u0] ON [r1].[UserId] = [u0].[Id]
+    WHERE [u0].[Id] = @__p_0
+) AS [s0] ON [s].[Id] = [s0].[RoleId]
+WHERE [u].[Id] = @__p_0
+ORDER BY [u].[Id], [s].[RoleId], [s].[UserId], [s].[Id], [s0].[RoleId], [s0].[UserId]
+2025-10-16 20:27:01.341 -04:00 [INF] Executed DbCommand (31ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [User] SET [ExpireTimeToken] = @p0, [RefreshToken] = @p1
+OUTPUT 1
+WHERE [Id] = @p2;
+2025-10-16 20:27:01.362 -04:00 [FTL] Usuario Autenticado 2004
+2025-10-16 20:27:01.372 -04:00 [INF] Executing OkObjectResult, writing value of type 'tests.DTOs.ResponseDTO`1[[tests.DTOs.TokenResponseDto, tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-16 20:27:01.440 -04:00 [INF] Executed action tests.Controllers.AuthController.Login (tests) in 1523.1089ms
+2025-10-16 20:27:01.450 -04:00 [INF] Executed endpoint 'tests.Controllers.AuthController.Login (tests)'
+2025-10-16 20:27:01.467 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5140/api/auth/generate?email=eduar@gmail.com&password=tankelcerro - 200 563 application/json; charset=utf-8 1636.8131ms

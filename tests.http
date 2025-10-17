@@ -1,0 +1,33 @@
+@tests_HostAddress = http://localhost:5140
+
+@email=eduar@gmail.com
+@password=tankelcerro
+GET {{tests_HostAddress}}/api/auth/generate?email={{email}}&password={{password}}
+
+###
+
+@token= Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJlZHVhckBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiQURNSU4iLCJDTElFTlQiXSwiZXhwIjoxNzU4MTQwOTQzLCJpc3MiOiJsb2NhbERiIiwiYXVkIjoibG9jYWxEYiJ9.uAvcwj1uIDWPW_fr7xsw-orLSiL9CNfovf38ke-ojTzeyaQPmbGpwgOqdhuvshv6Fq3MBmrj8PlFa4FTlUwqDQ
+GET {{tests_HostAddress}}/api/user
+Authorization: {{token}}
+###
+
+POST {{tests_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  "Name": "Evaristo",
+  "Email":"evaristo@gmail.com",
+  "Password": "tankelcerro"
+}
+
+###
+
+@refreshToken=2QcxiekDpvcXHMQu7yEzOMDjxq4h9cB8h18wWjQsUlrgbJPuGmxIaut9lJxthurYGLO4Mgju6In5PFz2TvKQkg==
+@id=2004
+GET {{tests_HostAddress}}/api/auth/refresh?refreshToken={{refreshToken}}&id={{id}}
+
+###
+
+GET {{tests_HostAddress}}/api/user
+
+###
